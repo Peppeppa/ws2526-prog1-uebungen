@@ -8,7 +8,6 @@ public class pqFormel {
         double q = 2;
         double x1;
         double x2;
-        double wurzel;
         double pHalbe = p / 2;
         System.out.println("pHalbe = " + pHalbe);
 
