@@ -21,9 +21,9 @@ public class kreiskugel
         System.out.println("Der Umfang des Kreises beträgt " + kreisumfang + " cm");
 
         // Volumen Kugel
-        float volKugel;
-        volKugel = 4 / 3 * pi * (r * r * r);
-        System.out.println("Das Volumen einer Kugel beträgt " + volKugel + " cm³");
+        double volKugel;
+        volKugel = ((4.0 / 3.0) * pi * (r * r * r));
+        System.out.println("Das Volumen der Kugel beträgt " + volKugel + " cm³");
 
     }
 }
