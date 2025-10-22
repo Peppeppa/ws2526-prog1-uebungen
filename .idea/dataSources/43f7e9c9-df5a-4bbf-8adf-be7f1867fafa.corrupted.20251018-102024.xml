@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="testdb@localhost">
+  <database-model serializer="dbm" dbms="DERBY" family-id="DERBY" format-version="4.53">
+    <root id="1">
+      <ServerVersion>10.17.1.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="APP">
+      <Current>1</Current>
+      <LastIntrospectionLocalTimestamp>2025-10-12.13:48:37</LastIntrospectionLocalTimestamp>
+    </schema>
+    <schema id="3" parent="1" name="NULLID"/>
+    <schema id="4" parent="1" name="SQLJ"/>
+    <schema id="5" parent="1" name="SYS"/>
+    <schema id="6" parent="1" name="SYSCAT"/>
+    <schema id="7" parent="1" name="SYSCS_DIAG"/>
+    <schema id="8" parent="1" name="SYSCS_UTIL"/>
+    <schema id="9" parent="1" name="SYSFUN"/>
+    <schema id="10" parent="1" name="SYSIBM"/>
+    <schema id="11" parent="1" name="SYSPROC"/>
+    <schema id="12" parent="1" name="SYSSTAT"/>
+    <table id="13" parent="2" name="STUDENTS"/>
+    <column id="14" parent="13" name="ID">
+      <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+      <StoredType>INTEGER|4s</StoredType>
+    </column>
+    <column id="15" parent="13" name="NAME">
+      <Position>2</Position>
+      <StoredType>VARCHAR(50)|12s</StoredType>
+    </column>
+    <column id="16" parent="13" name="AGE">
+      <Position>3</Position>
+      <StoredType>INTEGER|4s</StoredType>
+    </column>
+    <index id="17" parent="13" name="SQL0000000081-90478154-0199-d8a1-99f2-00003e7f8258">
+      <ColNames>ID</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Unique>1</Unique>
+    </index>
+    <key id="18" parent="13" name="SQL0000000081-90478154-0199-d8a1-99f2-00003e7f8258">
+      <ColNames>ID</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
