@@ -1,4 +1,4 @@
-package exercise_1;
+package exercise;
 import java.util.Scanner;
 public class ErrorCode {
     public static void main(String[] args) {
