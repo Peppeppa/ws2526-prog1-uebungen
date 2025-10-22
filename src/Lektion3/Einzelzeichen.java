@@ -9,7 +9,7 @@ public class Einzelzeichen {
         char eingabe = eingabe();
         
         System.out.println(eingabe);
-        System.out.println((int)eingabe);
+        //System.out.println((int)eingabe);
         proof(eingabe);
 
 
@@ -33,7 +33,7 @@ public class Einzelzeichen {
             System.out.println("Großbuchstabe");
             u = false;
         }
-        if ((charToInt >= 48 && charToInt <= 57) || (charToInt >= 65 && charToInt <= 70) || (charToInt >= 97 && charToInt <= 102)) {
+        if (charToInt >= 48 && charToInt <= 57 || charToInt >= 65 && charToInt <= 70 || charToInt >= 97 && charToInt <= 102) {
             System.out.println("Hexadezimalzahl");
             u = false;
         }
