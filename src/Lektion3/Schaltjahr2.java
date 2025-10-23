@@ -6,6 +6,7 @@ public class Schaltjahr2 {
         Scanner sc=new Scanner(System.in);
         System.out.println("bitte gib eine Jahreszahl ein: ");
         int jahr = sc.nextInt();
+
         if (jahr % 4 == 0 &&  jahr % 100 != 0 &&  jahr % 400 != 0) {
             System.out.println("Es ist ein Schaltjahr da es durch 4 aber nicht durch 100 oder 400 Teilbar ist");
         }
@@ -23,5 +24,4 @@ public class Schaltjahr2 {
         }
         sc.close();
     }
-
 }

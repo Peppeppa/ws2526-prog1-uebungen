@@ -7,13 +7,8 @@ public class Einzelzeichen {
     public static void main(String[] args) {
 
         char eingabe = eingabe();
-        
         System.out.println(eingabe);
-        //System.out.println((int)eingabe);
         proof(eingabe);
-
-
-
     }
 
     public static char eingabe() {
@@ -48,7 +43,5 @@ public class Einzelzeichen {
         if (u){
             System.out.println("Unbekannt");
         }
-
       }
-
 }
