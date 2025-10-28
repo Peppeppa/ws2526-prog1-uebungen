@@ -14,7 +14,7 @@ public class Fall {
         for (int i = 0; i < falldauer; i++) {
             printdauer++;
             strecke = 0.5 * g * Math.pow(printdauer, 2);
-            System.out.println("Zeit: " + printdauer + " Sekunden: Zurückgelegte Strecke: " + strecke + " m.");
+            System.out.println("Zeit: " + printdauer + " Sekunden: Zurückgelegte Strecke: " + strecke + " cm.");
             Thread.sleep(600);
 
         }
