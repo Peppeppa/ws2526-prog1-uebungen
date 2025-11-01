@@ -2,7 +2,7 @@ package lektion4;
 
 public class Querprodukt {
     public static void main (String [] args){
-        int zahl = -123;
+        int zahl = 123;
         int querprodukt = calcQuerprodukt(zahl);
         System.out.println("Das Querprodukt der Zahl " + zahl + " betraegt " + querprodukt);
     }
