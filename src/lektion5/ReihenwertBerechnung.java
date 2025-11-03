@@ -1,34 +1,27 @@
 package lektion5;
 
 public class ReihenwertBerechnung {
-    public static void  main (String [] args){
+    public static void main(String[] args) {
+        double summe = 0.0;
+        double aAlt = 0.0;
+        double differenz = 1.0;
+        int k = 1;
 
-        double ak = 0;
-        double k = 1.0;
+        while (differenz > 1e-5) {
+            summe +=  1.0 / (k * k);
+            double aNeu =  6 * summe;
 
-        while (true){
-            ak = (1/(k*k));
+            differenz = Math.abs(aNeu - aAlt);
+            System.out.printf("k = %d, a = %.8f, Änderung = %.10f%n", k, aNeu, differenz);
+
+            aAlt = aNeu;
             k++;
-            if(k<0.000001) break;
         }
-        ak = ak*6;
-        System.out.println("Das ak ist " + ak);
-
-
-//        double e = 1;
-//        int i = 1;
-//        double f =1;
-//
-//        //6*
-//
-//        while (true){
-//            f *= i;
-//            double temp = e;
-//            e = e + 1/f;
-//            System.out.println(i + " " + e);
-//            i++;
-//            if (e-temp<0.000001) break;
-
+        System.out.println("Endergebnis: " + aAlt);
+        System.out.println("Anzahl der Glieder: " + (k - 1));
     }
-
 }
+
+
+
+
