@@ -2,7 +2,7 @@ package lektion5;
 
 public class Potenz {
     public static void main(String[] args){
-        double b = 4.0;
+        double b = -0.0;
         int n = 4;
         double ergebnis = b;
 

@@ -18,6 +18,7 @@ public class quadratwurzel {
     }
 
     public static boolean gutGenug(double schaetzwert, double x){
+        System.out.println(schaetzwert);
         return Math.abs((schaetzwert * schaetzwert) -x) < 1e-15;
     }
 
