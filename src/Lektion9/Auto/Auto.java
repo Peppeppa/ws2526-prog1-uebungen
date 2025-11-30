@@ -1,4 +1,4 @@
-package Lektion8.Auto;
+package Lektion9.Auto;
 
 public class Auto {
     String marke;
