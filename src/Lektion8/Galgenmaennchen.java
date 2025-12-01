@@ -6,7 +6,7 @@ public class Galgenmaennchen {
         gameLoopdiloop();
 
     }
-    public static void gameLoopdiloop(){
+        public static void gameLoopdiloop(){
         String gesuchtesWort = rndWort();
         char[] strichWort = wortVerdecken(gesuchtesWort).toCharArray();
         int versuche = 0;

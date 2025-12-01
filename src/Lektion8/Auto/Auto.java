@@ -38,7 +38,9 @@ public class Auto {
         return farbe;
     }
     public void setFarbe(String farbe){
-        this.farbe = farbe;
+        this.farbe = farbe;{
+            this.hubraum = 1600;
+        }
     }
 
     public int getBaujahr(){
