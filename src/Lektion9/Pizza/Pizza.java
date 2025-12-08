@@ -15,6 +15,7 @@ public class Pizza {
     private float flaeche(int durchmesser){
         return (float) (Math.PI * Math.pow(durchmesser / 2.0,2));
     }
+
     private float preisLeistung(float preis, int durchmesser){
         return preis / flaeche(durchmesser);
     }
