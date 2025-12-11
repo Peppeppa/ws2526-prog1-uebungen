@@ -23,7 +23,7 @@ public class Auto {
     }
     public static int getProduktionsZaehler(){
         return produktionsZaehler;
-    }#
+    }
     public String getMarke(){
         return marke;
     }

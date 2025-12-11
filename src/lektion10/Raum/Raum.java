@@ -12,7 +12,7 @@ public class Raum {
     public Raum(String kennung, int maxStudenten) {
         this.kennung = kennung;
         this.maxStudenten = maxStudenten;
-        this.belegt = false;   // Räume sind anfangs frei
+        this.belegt = false;
         this.studentenImRaum = new Student[maxStudenten];
     }
 
