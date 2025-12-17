@@ -6,7 +6,6 @@ public class Uhr {
     private int min;
     private int sek;
 
-    // konstruktor?
 
     public Uhr (int std, int min, int sek){
 
