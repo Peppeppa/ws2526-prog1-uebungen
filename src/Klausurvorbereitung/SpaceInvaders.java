@@ -23,5 +23,4 @@ public class SpaceInvaders {
         feld[ROWS - 1][shipCol] = 'V';
     }
 
-
 }
